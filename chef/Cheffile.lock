@@ -1,0 +1,20 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (2.2.1)
+    aws (0.101.6)
+    chef_handler (1.1.4)
+    java (1.14.0)
+      aws (>= 0.0.0)
+      windows (>= 0.0.0)
+    openssl (1.1.0)
+    tomcat (0.15.0)
+      java (>= 0.0.0)
+      openssl (>= 0.0.0)
+    windows (1.11.0)
+      chef_handler (>= 0.0.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  tomcat (>= 0)
+

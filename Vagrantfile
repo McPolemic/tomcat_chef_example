@@ -22,5 +22,6 @@ Vagrant.configure("2") do |config|
     chef.roles_path = "chef/roles"
     chef.data_bags_path = "chef/data_bags"
     chef.add_role "base"
+    chef.add_role "tomcat7"
   end
 end

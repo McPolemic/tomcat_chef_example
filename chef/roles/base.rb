@@ -9,7 +9,5 @@ default_attributes(
                       "2.pool.ntp.org",
                       "3.pool.ntp.org"]
     },
-    "timezone" => {
-        "tz" => "America/Indiana/Indianapolis"
-    }
+    "tz" => "America/Indiana/Indianapolis"
 )
